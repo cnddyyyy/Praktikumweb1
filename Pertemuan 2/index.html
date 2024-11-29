@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pertemuan 2</title>
+  </head>
+  <body>
+    <ul>
+      <li>Olaf</li>
+      <li>Lili</li>
+      <li>Ana</li>
+    </ul>
+
+    <ol>
+      <li>Elsa</li>
+      <li>Sven</li>
+      <li>Kristof</li>
+    </ol>
+
+    <table border="1" width="100%">
+      <tr>
+        <th height="40%">No</th>
+        <th>Nama</th>
+        <th width="40%">Pekerjan</th>
+        <th>Gaji</th>
+        <th colspan="5">Costumer</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Elsa</td>
+        <td>Cukur Es</td>
+        <td>300k</td>
+        <td rowspan="2">Nama Costumer</td>
+        <td>kucing</td>
+        <td>kumbang</td>
+        <td>panda</td>
+        <td>platipus</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Sven</td>
+        <td>Dokar</td>
+        <td>500K</td>
+        <td>Elsa</td>
+        <td>Olaf</td>
+        <td>Kristof</td>
+        <td>Ana</td>
+      </tr>
+    </table>
+    <br /><br />
+
+    <form action=""></form>
+
+    <label>Nama</label><br />
+    <input type="text" name="nama" id="nama" /><br />
+
+    <label>Email</label><br />
+    <input type="email" name="mail" id="mail" /><br />
+
+    <label>Password</label><br />
+    <input type="password" name="pass" id="pass" /><br />
+
+    <label>Jenis Kelamin</label><br />
+    <input type="radio" name="jk" id="jk" value="Laki Laki" /> Laki Laki
+    <input type="radio" name="jk" id="jk" value="Perempuan" /> Perempuan
+    <br />
+
+    <label>Menu Makan siang</label><br />
+    <input type="checkbox" name="mk" id="mk" value="Rendang" /> ayam
+    <input type="checkbox" name="mk" id="mk" value="Sate Kambing" /> ayam
+    <input type="checkbox" name="mk" id="mk" value="Kikil Sapi" /> kambing
+    <input type="checkbox" name="mk" id="mk" value="Buah Ajah" /> tikus
+    <br />
+
+    <label>Tanggal Lahir</label><br />
+    <input type="date" name="tglLahir" id="tglLahir" /><br />
+
+    <label>Pilih Warna</label><br />
+    <input type="color" name="warna" id="warna" /><br />
+
+    <label>Upload File</label><br />
+    <input type="file" name="file" id="file" /><br />
+
+    <label>Qty</label><br />
+    <input type="number" name="qty" id="qty" /><br />
+
+    <label>Ini ada cuman tidak keliatan</label><br />
+    <input type="hidden" name="hilang" id="hilang" value="Secret" /><br />
+
+    <label>1 - 100</label><br />
+    <input type="range" name="range" id="range" value="50" /><br />
+
+    <label>Tombol Submit</label><br />
+    <input type="submit" name="submit" id="submit" /><br />
+
+    <label>Tombol Reset</label><br />
+    <input type="reset" name="reset" id="reset" /><br />
+
+    <label>Teks Area</label><br />
+    <textarea name="alamat" id="alamat" cols="30" rows="10"></textarea
+    ><br /><br />
+
+    <label>Pilih Agama</label><br />
+    <select name="agama" id="agama">
+      <option value="">~ Pilih Agama ~</option>
+      <option value="Islam">Islam</option>
+      <option value="Kristen">Kristen</option>
+      <option value="Hindu">Hindu</option>
+      <option value="Budha">Budha</option>
+      <option value="Katolik">Katolik</option></select
+    ><br /><br />
+
+    <label>Pilih Siswa</label><br />
+    <input list="datasiswa" name="siswa" id="siswa" />
+    <datalist id="datasiswa">
+      <option value="ganteng">gigi</option>
+      <option value="cantik">gege</option>
+      <option value="cute">gogo</option>
+      <option value="smart">gugu</option>
+      <option value="rajin">gaga</option></datalist
+    ><br /><br />
+
+    <button>Ini Tombol</button><br /><br />
+
+    <fieldset>
+      <legend>Pendaftaran</legend>
+
+      <label>Nama Lengkap</label><br />
+      <input type="text" name="namaLengkap" id="namaLengkap" /><br />
+
+      <label>Umur</label><br />
+      <input type="number" name="umur" id="umur" /><br />
+
+      <button>Daftar</button>
+    </fieldset>
+  </body>
+</html>

@@ -1,0 +1,160 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Navbar */
+  nav {
+    background-color: #4158A6;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #a5c9e6, #f0f8ff);
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #FBFBFB;
+    margin-bottom: 20px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    color: #4158A6;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    color: #555;
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  /* About Me Section */
+  .about-me {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .about-me h2 {
+    font-size: 2rem;
+    color: #4158A6;
+    margin-bottom: 20px;
+  }
+
+  .about-me h2:hover {
+    color: #304463;
+  }
+
+  .about-me p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Skills Section */
+  .skills {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .skills h2 {
+    font-size: 2rem;
+    color: #4158A6;
+    margin-bottom: 20px;
+  }
+
+  .skills h2:hover {
+    color: #304463;
+  }
+
+  .skills ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .skills li {
+    font-size: 1.1rem;
+    color: #FBFBFB;
+    padding: 10px 20px;
+    background-color: #9DBDFF;
+    border-radius: 8px;
+    width: 120px;
+    text-align: center;
+  }
+
+  .skills li:hover {
+    background-color: #4158A6;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #4158A6;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 0.9rem;
+    margin-top: auto;
+  }
+  
+  footer .socials {
+    list-style: none;
+    padding: 10px;
+  }
+  
+  footer .socials li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  footer .socials li a {
+    color: #f0f8ff;
+    text-decoration: none;
+  }
+  
+  footer .socials li a:hover {
+    text-decoration: underline;
+  }
+  

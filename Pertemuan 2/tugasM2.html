@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CPNS Registration Form</title>
+  </head>
+  <body>
+    <h2>Form Pendaftaran CPNS</h2>
+
+    <form action="/submit_registration" method="POST">
+      <table border="1" cellpadding="5" cellspacing="0" width="100%">
+        <tr>
+          <th colspan="2">Informasi Pribadi</th>
+        </tr>
+        <tr>
+          <td>Nama Lengkap:</td>
+          <td><input type="text" name="full_name" required /></td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td><input type="email" name="email" required /></td>
+        </tr>
+        <tr>
+          <td>Password:</td>
+          <td><input type="password" name="password" required /></td>
+        </tr>
+        <tr>
+          <td>Konfirmasi Password:</td>
+          <td><input type="password" name="confirm_password" required /></td>
+        </tr>
+        <tr>
+          <td>Jenis Kelamin:</td>
+          <td>
+            <select name="gender">
+              <option value="">Pilih...</option>
+              <option value="male">Laki-laki</option>
+              <option value="female">Perempuan</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Hobi:</td>
+          <td>
+            <input type="checkbox" name="hobby[]" value="reading" /> Membaca
+            <input type="checkbox" name="hobby[]" value="traveling" /> Bepergian
+            <input type="checkbox" name="hobby[]" value="sports" /> Olahraga
+            <input type="checkbox" name="hobby[]" value="music" /> Musik
+            <input type="checkbox" name="hobby[]" value="gaming" /> Bermain Game
+          </td>
+        </tr>
+
+        <!-- Nested Table -->
+        <tr>
+          <td colspan="2">
+            <table border="1" cellpadding="5" cellspacing="0" width="100%">
+              <tr>
+                <th colspan="2">Informasi Tambahan</th>
+              </tr>
+              <tr>
+                <td>Alamat:</td>
+                <td><input type="text" name="address" /></td>
+              </tr>
+              <tr>
+                <td>No Telepon:</td>
+                <td><input type="hp" name="phone" /></td>
+              </tr>
+              <tr>
+                <td>Tanggal Lahir:</td>
+                <td><input type="date" name="birth_date" /></td>
+              </tr>
+              <tr>
+                <td>Pendidikan Terakhir:</td>
+                <td>
+                  <select name="education">
+                    <option value="">Pilih...</option>
+                    <option value="highschool">SMA/SMK</option>
+                    <option value="diploma">Diploma</option>
+                    <option value="bachelor">Sarjana</option>
+                    <option value="master">Magister</option>
+                    <option value="doctorate">Doktor</option>
+                  </select>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- Submit Button -->
+        <tr>
+          <td colspan="2"><input type="submit" value="Daftar" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
